@@ -69,13 +69,13 @@ The link to download dataset for training Yolov5:
 
 <p align="center">
   <img src="runs/train/exp/R_curve.png" width="500" height="320">
-  <img src="runs/train/exp/P_curve.png" width="500" height="320">
+  <img src="runs/train/exp/P_curve.png" width="500" height="320"><br/>
    <i>Precision and Recall after training</i>
 </p>
 
 <p align="center">
   <img src="runs/train/exp/F1_curve.png" width="500" height="320">
-  <img src="runs/train/exp/confusion_matrix.png" width="500" height="320">
+  <img src="runs/train/exp/confusion_matrix.png" width="500" height="320"><br/>
   <i>F1 and confusion matrix after training</i>
 </p>
 
