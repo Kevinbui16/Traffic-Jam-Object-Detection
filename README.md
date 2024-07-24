@@ -12,6 +12,7 @@ It uses a dataset of different images and videos of the traffic scenario to trai
 
 The link to download dataset for training Yolov5: 
 - https://universe.roboflow.com/v9/car-models-ismtj/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true
+- This dataset have 3 objects: Car, Truck and Motorcycle
 
 ## File Descriptions 📄
 - `modified_detect.py`: Script for running the YOLOv5 detection inference.
