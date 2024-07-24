@@ -20,5 +20,52 @@ The link to download dataset for training Yolov5:
 - `data/`: Directory containing the dataset and annotations.
 - `models/`: Directory containing the YOLOv5 model definitions and configurations.
 
+## How to Use the Code 🤔
+#### Usage 🔧
+
+1. Clone the Repository:
+<p align="center">
+  - git clone https://github.com/yourusername/yolov5-traffic-jam-detection.git <br>
+  - cd yolov5-traffic-jam-detection
+</p>
+
+2. Install Requirements::
+<p align="center">
+  - pip install -r requirements.txt
+</p>
+
+3. Run Detection on an Image:
+<p align="center">
+  - python modified_detect.py --weights runs/train/exp/weights/best.pt --source data/images/your_image.jpg
+</p>
+
+4. Run Detection on a Video:
+<p align="center">
+  - python modified_detect.py --weights runs/train/exp/weights/best.pt --source data/videos/your_video.mp4
+</p>
+
+5. Run Detection on Live Camera Feed:
+<p align="center">
+  - python modified_detect.py --weights runs/train/exp/weights/best.pt --source 0
+</p>
+
+
+## Testing Model 🔍
+### Video Predictions
+<p align="center">
+  <a href="path_to_your_video/hanoi_final.mp4">
+    <i>Traffic Congestion demo</i>
+  </a>
+</p>
+
+
+
+
+
+
+
+ 
+
+
 
 
