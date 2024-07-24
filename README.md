@@ -54,13 +54,57 @@ The link to download dataset for training Yolov5:
 ### Video Predictions
 <p align="center">
   <img src="freeway_final.gif" width=600><br/>
-  <i>Clear street detect demo</i>
+  <i>Nornmal Traffic detect demo</i>
 </p>
 
 <p align="center">
-  <img src="freeway_final.gif" width=600><br/>
-  <i>Clear street detect demo</i>
+  <img src="hanoi_final.gif" width=600><br/>
+  <i>Traffic congestion detect demo</i>
 </p>
+
+<p align="center">
+  <strong><i>-TensorBoard Training Visualizations after 50 epochs📈-</i></strong>
+</p>
+
+<p align="center">
+  <img src="runs/train/exp/R_curve.png" width="500" height="320">
+  <img src="runs/train/exp/P_curve.png" width="500" height="320">
+   <i>Precision and Recall after training</i>
+</p>
+
+<p align="center">
+  <img src="runs/train/exp/F1_curve.png" width="500" height="320">
+  <img src="runs/train/exp/confusion_matrix.png" width="500" height="320">
+  <i>F1 and confusion matrix after training</i>
+</p>
+
+<p align="center">
+  <img src="runs/train/exp/results.png" width="700" height="400"> <br>
+  <i>final result</i>
+</p>
+
+## Results📝
+The YOLOv5 model effectively detects traffic jams by identifying and tracking vehicle speeds and densities. The system alerts when a potential traffic jam is detected based on predefined thresholds for vehicle count and speed.
+
+## Requirements🛠️
+
+To run this project, you will need the following libraries:
+
+| Libraries               |
+|------------------------ |
+| Pytorch                 |  
+| sys                     |  
+| platform                |   
+| argparse                |  
+| csv                     |  
+| pathlib                 |  
+| numpy                   |  
+| os                      |  
+
+
+
+
+
 
 
 
