@@ -1,0 +1,13 @@
+train: /Users/nguyenbui/Documents/car-models.v2i.yolov5pytorch/train/images
+val: /Users/nguyenbui/Documents/car-models.v2i.yolov5pytorch/valid/images
+test: /Users/nguyenbui/Documents/car-models.v2i.yolov5pytorch/test/images
+
+nc: 3
+names: ['car', 'motorcycle', 'truck']
+
+roboflow:
+  workspace: v9
+  project: car-models-ismtj
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/v9/car-models-ismtj/dataset/2
