@@ -53,10 +53,15 @@ The link to download dataset for training Yolov5:
 ## Testing Model 🔍
 ### Video Predictions
 <p align="center">
-  <a href="path_to_your_video/hanoi_final.mp4">
-    <i>Traffic Congestion demo</i>
-  </a>
+  <img src="freeway_final.gif" width=600><br/>
+  <i>Clear street detect demo</i>
 </p>
+
+<p align="center">
+  <img src="freeway_final.gif" width=600><br/>
+  <i>Clear street detect demo</i>
+</p>
+
 
 
 
